@@ -10,12 +10,13 @@ section {
 } */
 
 
-body{
+html,body{
     font-family: "Poppins", serif;
     line-height: 1.8;
     color: black;
     overflow-x: hidden;
-   
+    width: 100%;
+  
    
 }
 nav .container-fluid{
