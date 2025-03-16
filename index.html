@@ -254,6 +254,19 @@
               </div>
             </div>
           </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="project">
+              <div class="image-wrapper">
+                <a href="https://abinayack.github.io/Electro_Bazaar/"><img src="images/electro.jpg" alt=""></a>
+              </div>
+              <h5>Blog Post</h5>
+              <p class="align">This is a electro bazaar website developed using HTML, CSS, and Bootstrap. The project focuses on frontend development and is designed to be fully responsive, ensuring an optimal user experience across various devices and screen sizes.</p>
+              <div class="website">
+                <p><b>Website Details</b></p>    
+                <p class="child">(Click the image)</p>     
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -312,5 +325,16 @@
     </footer>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+    <script>
+      document.querySelectorAll('.navbar-nav a').forEach(link => {
+          link.addEventListener('click', () => {
+              const navbarCollapse = document.getElementById('navbarTogglerDemo02');
+              if (navbarCollapse.classList.contains('show')) {
+                  navbarCollapse.classList.remove('show');
+              }
+          });
+      });
+  </script>
+  </body>
 </html>
