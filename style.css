@@ -90,15 +90,15 @@ h1 span{
 }
 @keyframes words {
     0%, 33%{
-        content: "java Intern";
+        content: "Java Full Stack Developer";
         color: rgb(161, 66, 66);
     }
     34%, 66%{
-        content: "MCA Student";
+        content: "Java Programming Enthusiast";
         color: rgb(111, 180, 124);
     }
     67%, 100%{
-        content: "Designer";
+        content: "Detail-Oriented Developer";
         color: yellowgreen;
     }
 }
